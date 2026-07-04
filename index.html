@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pakman z Domejkowa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Pakman z Domejkowa</h1>
+
+  <div class="info">
+    Punkty: <span id="score">0</span>
+  </div>
+
+  <canvas id="game" width="608" height="608"></canvas>
+
+  <div class="controls">
+    <button onclick="setDir('up')">⬆️</button>
+    <div>
+      <button onclick="setDir('left')">⬅️</button>
+      <button onclick="setDir('down')">⬇️</button>
+      <button onclick="setDir('right')">➡️</button>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
