@@ -1,0 +1,2 @@
+# domeikavaman
+pakmanzdomejkowa
